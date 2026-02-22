@@ -1,5 +1,11 @@
 # matrix-gatekeeper
 
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Matrix](https://img.shields.io/badge/matrix-nio-green.svg)](https://github.com/matrix-nio/matrix-nio)
+[![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](Dockerfile)
+[![Vibecoded](https://img.shields.io/badge/vibecoded-Claude_Code-cc785c.svg)](https://claude.ai/claude-code)
+
 A Matrix bot that gates access to a space behind rules acceptance. Users react with a checkmark on a rules message, the bot invites them to your content space. Simple, drop-in, no database required.
 
 > **Vibecoded.** This project was built almost entirely with AI ([Claude Code](https://claude.ai/claude-code)). It works great in production but comes with no warranty. Use it, fork it, break it, fix it.
