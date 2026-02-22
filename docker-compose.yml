@@ -1,0 +1,14 @@
+services:
+  gatekeeper:
+    build: .
+    container_name: matrix-gatekeeper
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./rules.txt:/app/rules.txt:ro
+      - ./rules.html:/app/rules.html:ro
+      - ./welcome.txt:/app/welcome.txt:ro
+      - ./welcome.html:/app/welcome.html:ro
+      - ./tips.txt:/app/tips.txt:ro
+      - ./tips.html:/app/tips.html:ro

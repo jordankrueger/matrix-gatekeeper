@@ -1,0 +1,7 @@
+You're in! Here are a few tips to get the most out of this community:
+
+- If your server has a web app (like Element Web), you can install it as a PWA on your phone for a native app experience. Visit the web URL in your mobile browser, then choose "Add to Home Screen."
+- You can hide join/leave messages in busy rooms. In Element, go to room settings and look for the option to hide member events.
+- Browse through the different channels — there's more than what shows up by default. Check the space view for the full list.
+
+Enjoy!
